@@ -1,0 +1,20 @@
+@font-face {font-family: Liberation Serif; src: url(../jdgmiles.github.io/LiberationSerif.woff);}
+@font-face {font-family: Liberation Serif Bold; src: url(../jdgmiles.github.io/LiberationSerif-Bold.woff);}
+@font-face {font-family: Liberation Serif Italic; src: url(../jdgmiles.github.io/LiberationSerif-Italic.woff);}
+@font-face {font-family: Liberation Serif Bold Italic; src: url(../jdgmiles.github.io/LiberationSerif-BoldItalic.woff);}
+
+body {font-family: Liberation Serif, Tahoma, Arial, Helvetica, Sans-Serif; background-color:black; color:white; cursor:default; text-align:center;}
+
+.iconparams {width:109px}
+
+.container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-45%);
+    font-size: 56px;
+}
+
+.grow {display:inline}
+.grow img {transition: 0.25s ease;}
+.grow img:hover {-webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.4); transition: 0.25s ease;}
