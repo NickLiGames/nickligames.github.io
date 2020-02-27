@@ -12,7 +12,7 @@ body {font-family: Liberation Serif, Tahoma, Arial, Helvetica, Sans-Serif; backg
     top: 45%;
     left: 50%;
     transform: translateX(-50%) translateY(-45%);
-    font-size: 56px;
+    font-size: 60px;
 }
 
 .grow {display:inline}
